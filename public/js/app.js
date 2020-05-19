@@ -4,7 +4,7 @@ const t1 = {}
 const t2 = {}
 const fetchedData = {}
 
-const baseURL = 'http://www.omdbapi.com/?&apikey=258b4c28'
+const baseURL = 'https://www.omdbapi.com/?&apikey=258b4c28'
 let url1
 let url2
 
