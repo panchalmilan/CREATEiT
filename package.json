@@ -2,9 +2,9 @@
   "name": "createit",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/panchalmilan/CREATEiT/issues"
   },
-  "homepage": "https://github.com/panchalmilan/CREATEiT#readme"
+  "homepage": "https://github.com/panchalmilan/CREATEiT#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
