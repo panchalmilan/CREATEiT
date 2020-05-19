@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMPAREiT | compare movies / series</title>
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <link rel="stylesheet" href="./public/css/switch.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="heading">COMPARE<span id="i">i</span>T</h1>
+      <h3 id="heading-text"></h3>
+    </header>
+
+    <form action="">
+      <div class="container">
+        <div class="cont1">
+          <input
+            class="movie1"
+            type="text"
+            placeholder="Enter movies or series.."
+            required
+            value=""
+          />
+
+          <input class="year1" type="number" placeholder="Year of Release" />
+
+          <input class="season1" type="number" placeholder="Season" />
+
+          <input class="episode1" type="number" placeholder="Episode" />
+        </div>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <div class="cont2">
+          <input
+            class="movie2"
+            type="text"
+            placeholder="Enter movies or series.."
+            required
+            value=""
+          />
+
+          <input class="year2" type="number" placeholder="Year of Release" />
+
+          <input class="season2" type="number" placeholder="Season" />
+
+          <input class="episode2" type="number" placeholder="Episode" />
+        </div>
+      </div>
+      <button class="btnGET" type="submit">Get</button>
+    </form>
+
+    <!--  -->
+
+    <div class="containerX">
+      <!-- Prototype -->
+      <!-- <div class="labelX">
+        <div class="title">Title</div>
+      </div>
+      <div class="cont1X">
+        <div class="title">TitleValue1 Lorem ipsum dolor sit amet.</div>
+      </div>
+      <div class="cont2X">
+        <div class="title">TitleValue2</div> -->
+      <!-- </div> -->
+    </div>
+
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.X.X/dist/typeit.min.js"></script>
+    <script>
+      new TypeIt('#heading-text', {
+        speed: 50,
+        waitUntilVisible: true,
+        loop: true,
+        loopDelay: 7000,
+        startDelay: 600,
+      })
+        .type('Tied', { delay: 300 })
+        .move(-2)
+        .type('r', { delay: 300 })
+        .move('END')
+        .type(' of comparing')
+        .pause(300)
+        .type(' Mvoie')
+        .move(-3)
+        .pause(300)
+        .delete(1)
+        .move(1)
+        .pause(300)
+        .type('v', { delay: 300 })
+        .move('END')
+        .type('s on diff tab')
+        .pause(500)
+        .move(-4)
+        .pause(300)
+        .type('erent')
+        .move('END')
+        .type('s ?')
+        .pause(900)
+        .move(-20)
+        .delete(6)
+        .pause(300)
+        .type('Series', { speed: 80 })
+        .move('END')
+        .pause(1000)
+        .delete(35)
+        .pause(300)
+        .move(-1)
+        .delete(9)
+        .pause(300)
+        .move(1)
+        .type('OMPARE')
+        .pause(400)
+        .move(-6)
+        .pause(300)
+        .delete(1)
+        .type('C')
+        .pause(300)
+        .move('END')
+        .pause(400)
+        .type('iT')
+        .pause(200)
+        .type(' is sol')
+        .pause(400)
+        .move(-3)
+        .pause(300)
+        .type('the ')
+        .move('END')
+        .type('ution !')
+        .pause(1500)
+        .delete()
+        .go()
+    </script>
+  </body>
+</html>
