@@ -1,12 +1,19 @@
 {
-  "name": "imdb-API",
+  "name": "createit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panchalmilan/CREATEiT.git"
+  },
+  "author": "Milan Panchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panchalmilan/CREATEiT/issues"
+  },
+  "homepage": "https://github.com/panchalmilan/CREATEiT#readme"
 }
